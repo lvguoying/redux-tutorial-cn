@@ -58,8 +58,8 @@ console.log('store_2 state after initialization:', store_2.getState())
 // 估计你已经发现了，我们给 reducer_2 的 state 参数传了默认值之后，
 // reducer 就不会再取到 undefined 的 state 了。
 
-// 小结一下：调用  reducer ，只是为了响应一个派发来的 action 。
-// 接下来，我们在 response 里模拟一个 state 修改，其响应的 action 类型是 'SAY_SOMETIHG'
+ `小结一下：调用  reducer ，只是为了响应一个派发来的 action 。
+接下来，我们在 response 里模拟一个 state 修改，其响应的 action 类型是 'SAY_SOMETIHG'`
 
 var reducer_3 = function (state = {}, action) {
     console.log('reducer_3 was called with state', state, 'and action', action)
@@ -102,3 +102,14 @@ console.log('store_3 state after initialization:', store_3.getState())
 // 现在开始，我们要在 reducer 里处理 action 了，我们将会有多个 reducer 并会组合它们。
 
 // 前往下一个章节: 05_combine-reducers.js
+
+
+// TODO:
+// reducer_0 was called with state undefined and action { type: '@@redux/INIT' }
+// store_0 state after initialization: undefined
+// reducer_1 was called with state undefined and action { type: '@@redux/INIT' }
+// store_1 state after initialization: {}
+// reducer_2 was called with state {} and action { type: '@@redux/INIT' }
+// store_2 state after initialization: {}
+// reducer_3 was called with state {} and action { type: '@@redux/INIT' }
+// store_3 state after initialization: {}

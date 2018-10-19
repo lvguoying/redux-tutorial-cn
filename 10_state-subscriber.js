@@ -57,8 +57,8 @@ var addItemActionCreator = function (item) {
 store_0.dispatch(addItemActionCreator({ id: 1234, description: 'anything' }))
 
 // 输出:
-//     ...
-//     store_0 has been updated. Latest store state: { items: [ { id: 1234, description: 'anything' } ] }
+    // ...
+    // store_0 has been updated. Latest store state: { items: [ { id: 1234, description: 'anything' } ] }
 
 // 我们的订阅回调成功的调用了，同时 store 现在包含了我们新增的条目。
 

@@ -42,3 +42,4 @@ var store_1 = createStore(reducer)
 // 在处理 “init” action 之后，我们应用中的 state 又会是怎么样的呢？
 
 // 下一章节：04_get-state.js
+

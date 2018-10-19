@@ -30,7 +30,7 @@
 //     2）一种把 action 分发到状态修改器的机制，也就是 reducer 函数
 //     3）监听状态变化的机制
 
-// 我们把 Redux 实例称为 store 并用以下方式创建：
+// 我们把 Redux 实例称为 store TODO:并用以下方式创建：
 /*
     import { createStore } from 'redux'
     var store = createStore()

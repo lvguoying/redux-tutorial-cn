@@ -9,7 +9,12 @@ redux-tutorial
 当你初次接触 Redux 时，[Redux 官方文档](https://github.com/camsong/redux-in-chinese)极其详尽，是你的首选。本教程不同点是，通过介绍 Redux 使用来向你展示 Flux 概念。如果你想了解更多细节，请参谋 Redux 官方文档。
 
 ### 准备
-
+```javascript
+ _________      _________       ___________
+|         |    | Change  |     |   React   |
+|  Store  |----▶ events  |-----▶   Views   |
+|_________|    |_________|     |___________|
+```
 为了理解本项目中的示例代码，你需要了解一些 ES6，ES7（Object Spread）特性。同时本教程只针对 Redux 3.0.2 和 react-redux 4.0.0。
 
 ### 克隆项目
